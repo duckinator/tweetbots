@@ -7,3 +7,5 @@ Currently implemented:
   * (139 chars) `ruby original.rb IRC.SERVER.TLD 6667 "#channel"`
   * (128 chars) `ruby smallest.rb IRC.SERVER.TLD 6667 "#channel"`
 
+
+The original ruby version was written by me (@duckinator) and Scott Olson (@tsion).
