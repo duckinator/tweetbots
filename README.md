@@ -5,19 +5,16 @@ Currently implemented:
 * Bash (130 chars): `bash ./tinybot.sh IRC.SERVER.TLD 6667 "#channel"`
 * Zsh  (127 chars): `zsh ./zshbot.sh  IRC.SERVER.TLD 6667 "#channel"`
 * Ruby:
-  * (139 chars) `ruby original.rb IRC.SERVER.TLD 6667 "#channel"`
-  * (128 chars) `ruby smallest.rb IRC.SERVER.TLD 6667 "#channel"`
-  * (86 chars)  `ruby cinch.rb IRC.SERVER.TLD 6667 "#channel"`
+  * no libraries (`ruby/no_libs/`)
+    * (139 chars) `ruby original.rb IRC.SERVER.TLD 6667 "#channel"`
+      Written by @duckinator and Scott Olson (@scott)
+    * (128 chars) `ruby smallest.rb IRC.SERVER.TLD 6667 "#channel"`
+      Based on `original.rb`, shrunk by @duckinator
+  * with libraries (`ruby/with_libs/`)
+    * (85 chars)  `ruby cinch.rb IRC.SERVER.TLD 6667 "#channel"`
+    * (69 chars)  `ruby -rcinch cinch-smallest.rb IRC.SERVER.TLD 6667 "#channel"`
 * Perl:
-  * (62 chars)  `perl -M-Bot::BasicBot ./gry/short.pl IRC.SERVER.TLD "#channel"
-  * (80 chars)  `perl ./gry/long.pl IRC.SERVER.TLD "#channel"
+  * by "gry" on freenode (`perl/gry/`)
+    * (62 chars)  `perl -M-Bot::BasicBot ./gry/short.pl IRC.SERVER.TLD "#channel"
+    * (80 chars)  `perl ./gry/long.pl IRC.SERVER.TLD "#channel"
 
-
-
-Some info on the bots:
-
-* `ruby/no_libs/original.rb` was written by @duckinator and Scott Olson (@tsion).
-* `ruby/no_libs/smallest.rb` was based on `original.rb`, with tweaks I made to make it even tinier.
-* `ruby/with_libs/cinch.rb` was written by @duckinator using the [cinch](https://github.com/cinchrb/cinch) library.
-* `bash/tinybot.sh` was written by @duckinator, and `zsh/zshbot.sh` is a tiny modification of that.
-* Both bots `perl/gry` were written by "gry" from [#botters on FreeNode](irc://irc.freenode.net/botters).
