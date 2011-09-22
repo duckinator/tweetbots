@@ -22,6 +22,6 @@ Ruby:
 Perl:
 
 * by "gry" on freenode (`perl/gry/`)
-  * (62 chars)  `perl -M-Bot::BasicBot ./gry/short.pl IRC.SERVER.TLD "#channel"
-  * (80 chars)  `perl ./gry/long.pl IRC.SERVER.TLD "#channel"
+  * (62 chars)  `perl -M-Bot::BasicBot ./gry/short.pl IRC.SERVER.TLD "#channel"`
+  * (80 chars)  `perl ./gry/long.pl IRC.SERVER.TLD "#channel"`
 
