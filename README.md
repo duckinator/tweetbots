@@ -13,4 +13,5 @@ Currently implemented:
 
 
 The original ruby version was written by me (@duckinator) and Scott Olson (@tsion).
+
 Both of the ones in `perl/gry` were written by "gry" from [#botters on FreeNode](irc://irc.freenode.net/botters).
