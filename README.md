@@ -14,6 +14,8 @@ Currently implemented:
 
 
 
+Some info on the bots:
+
 * `ruby/no_libs/original.rb` was written by @duckinator and Scott Olson (@tsion).
 * `ruby/no_libs/smallest.rb` was based on `original.rb`, with tweaks I made to make it even tinier.
 * `ruby/with_libs/cinch.rb` was written by @duckinator using the [cinch](https://github.com/cinchrb/cinch) library.
