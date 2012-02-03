@@ -15,7 +15,7 @@ Ruby:
   * (128 chars) `ruby smallest.rb IRC.SERVER.TLD 6667 "#channel"`
     Based on `original.rb`, shrunk by @duckinator
 * with libraries (`ruby/with_libs/`)
-  * (85 chars)  `ruby cinch.rb IRC.SERVER.TLD 6667 "#channel"`
+  * (84 chars)  `ruby cinch.rb IRC.SERVER.TLD 6667 "#channel"`
   * (69 chars)  `ruby -rcinch cinch-smallest.rb IRC.SERVER.TLD 6667 "#channel"`
 
 
