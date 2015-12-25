@@ -26,4 +26,4 @@ Perl:
   * (80 chars)  `perl ./gry/long.pl IRC.SERVER.TLD "#channel"`
 
 
-\[1]: FreeNode no longer accepts one-character nicknames. A lot of these bots will likely no longer work, due to that.
+\[1]: FreeNode no longer accepts one-character nicknames. A lot of these bots will likely no longer work on FreeNode due to that.
