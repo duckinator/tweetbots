@@ -11,9 +11,9 @@ Ruby:
 
 * no libraries (`ruby/no_libs/`)
   * (139 chars) `ruby original.rb IRC.SERVER.TLD 6667 "#channel"`
-    Written by @duckinator and Scott Olson (@scott)
+    Written by [@duckinator](https://github.com/duckinator) and Scott Olson ([@tsion](https://github.com/tsion)
   * (128 chars) `ruby smallest.rb IRC.SERVER.TLD 6667 nickname "#channel"`
-    Based on `original.rb`, shrunk by @duckinator and updated to specify the nickname\[1].
+    Based on `original.rb`, shrunk by [@duckinator](https://github.com/duckinator) and updated to specify the nickname\[1].
 * with libraries (`ruby/with_libs/`)
   * (84 chars)  `ruby cinch.rb IRC.SERVER.TLD 6667 "#channel"`
   * (69 chars)  `ruby -rcinch cinch-smallest.rb IRC.SERVER.TLD 6667 "#channel"`
