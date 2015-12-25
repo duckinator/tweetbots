@@ -5,7 +5,7 @@ Currently implemented:
 Shell:
 
 * Bash (130 chars): `bash ./tinybot.sh IRC.SERVER.TLD 6667 "#channel"`
-* Zsh  (127 chars): `zsh ./zshbot.sh  IRC.SERVER.TLD 6667 "#channel"`
+* Zsh  (126 chars): `zsh ./zshbot.sh  IRC.SERVER.TLD 6667 "#channel"`
 
 Ruby:
 
